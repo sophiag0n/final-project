@@ -6,7 +6,7 @@
 <h2 id="app-description-">App Description:</h2>
 <p>A dating website tailored to Computer Science students. </p>
 <h2 id="youtube-video-link-">YouTube Video Link:</h2>
-<p><a href="https://www.youtube.com/MyAmazingAPP">https://www.youtube.com/MyAmazingAPP</a></p>
+<p><a href="https://www.youtube.com/watch?v=z8GVWzt2Qws"><p>https://www.youtube.com/watch?v=z8GVWzt2Qws</p>
 <h2 id="apis-">APIs:</h2>
 <p>Nerdy Pickup Lines (https://rapidapi.com/roomasiddiqui2003/api/nerdy-pickup-lines1)</p>
 <h2 id="contact-email-">Contact Email:</h2>
