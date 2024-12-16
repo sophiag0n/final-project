@@ -4,16 +4,29 @@
 <head>
 	<meta charset="utf-8" />
 	<title>Log In</title>
+	<link rel="stylesheet" href="/css/style.css"/>
 </head>
 <body>
 	<h1>Log In</h1>
-	<form action="/account" method="post">	
-		<br>
-		<input type="reset" />
-		<input type="submit" value="Submit"/>
-	</form>
-	<hr>
-	New member? Sign Up <a href="/signUp">Here</a>
+	<main>
+		<div id="message">
+			<strong>Please input your log in credentials below!</strong>
+		</div>
+		<form action="/accountLogIn" method="post">	
+			<label>Username <input type="text" name="user"/></label> <br>
+			<label>Password <input type="text" name="password"></label> <br>
+			<input type="reset" />
+			<input type="submit" value="Submit"/>
+		</form>
+		<%- error %>
+		<hr>
+		<div id="link-box">
+			New member? Sign Up <a href="/signUp">Here</a>
+		</div>
+	</main>
+	<footer>
+		<p>By Sophian</p>
+	</footer>
 </body>
 
 </html>

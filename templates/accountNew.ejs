@@ -3,15 +3,16 @@
 
 <head>
 	<meta charset="utf-8" />
-	<title>Match</title>
+	<title>User Profile</title>
     <link rel="stylesheet" href="/css/style.css"/>
 </head>
 
 <body>
-    <h1>Potential Match</h1>
+    <h1>Your Profile</h1>
     <main>
         <div>
             <strong>Name: </strong><%- name %><br>
+            <strong>Email Address: </strong><%- email %><br>
             <strong>Gender: </strong><%- gender %><br>
             <strong>Age: </strong> <%- age %><br>
             <strong>Preference: </strong> <%- preference %><br>
@@ -20,16 +21,10 @@
             <strong>Description: </strong> <%- description %><br>
             <br>
         </div>
-        <form action="/matched" method="post">	
-            Enter name of person you want to match! <input type = "text" name = "matched" value = "user">
-            <input type="submit" value="Submit"/>
-        </form>
         <div id="link-box">
-            Retry: <a href="/match">Here</a>
+            Edit Your Account <a href="/edit">Here</a>
+            Find Your Pefect Match <a href="/match">Here</a>
         </div>
-        <div id="link-box">
-			Log Out <a href="/logIn">Here</a>
-		</div>
     </main>
     <footer>
         <p>By Sophian</p>

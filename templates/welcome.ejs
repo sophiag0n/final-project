@@ -4,15 +4,27 @@
 <head>
 	<meta charset="utf-8" />
 	<title>Welcome</title>
+	<link rel="stylesheet" href="/css/style.css"/>
 </head>
 
 <body>
-	<h1>Welcome</h1>
-	<div>
-		<strong>Welcome to our site </strong><%- user %><br>
-		<br>
+	<h1>Commit2Love.com</h1>
+
+	<div id="image"> 
+		<img src="/image/9493587.jpg">
 	</div>
-	Edit your account <a href="/account">Here</a>
+
+	<main>
+		<div id="message">
+			<strong>Welcome to our site </strong><%- user %>!<br>
+		</div>
+		<div>
+			Edit your account <a href="/edit">Here</a>
+		</div>
+	</main>
+	<footer>
+		<p>By Sophian</p>
+	</footer>
 </body>
 
 </html>

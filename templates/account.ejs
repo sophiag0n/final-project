@@ -4,23 +4,27 @@
 <head>
 	<meta charset="utf-8" />
 	<title>User Profile</title>
+	<link rel="stylesheet" href="/css/style.css"/>
 </head>
 
 <body>
 	<h1>Your Profile</h1>
-	<div>
-		<strong>Name: </strong><%- name %><br>
-		<strong>Email Address: </strong><%- email %><br>
-		<strong>Gender: </strong><%- gender %><br>
-		<strong>Age: </strong> <%- age %><br>
-        <strong>Preference: </strong> <%- preference %><br>
-        <strong>Language: </strong> <%- language %><br>
-        <strong>University: </strong> <%- university %><br>
-        <strong>Description: </strong> <%- description %><br>
-		<br>
-	</div>
-	Edit Your Account <a href="/edit">Here</a>
-    Find Your Pefect Match <a href="/match">Here</a>
+	<main>
+		<div>
+			<strong>Name: </strong><%- name %><br>
+			<strong>Gender: </strong><%- gender %><br>
+			<strong>Age: </strong> <%- age %><br>
+			<strong>Preference: </strong> <%- preference %><br>
+			<strong>Language: </strong> <%- language %><br>
+			<strong>University: </strong> <%- university %><br>
+			<strong>Description: </strong> <%- description %><br>
+			<br>
+		</div>
+		<div id="link-box">
+            Edit Your Account <a href="/edit">Here</a>
+            Find Your Pefect Match <a href="/match">Here</a>
+        </div>
+	</main>
 </body>
 
 </html>
