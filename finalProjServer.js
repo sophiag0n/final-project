@@ -11,7 +11,7 @@ const app = express();
 app.use(bodyParser.urlencoded({extended:false}));
 const fs = require("fs");
 process.stdin.setEncoding("utf8");
-const port = process.argv[2];
+const port = 3000;
 let count = 0;
 app.use('/css', express.static(path.join(__dirname, 'css')));
 app.use('/image', express.static(path.join(__dirname, 'image')));
@@ -192,4 +192,4 @@ async function getJoke(){
 
   //use node finalProjServer.js (any number) to access
 
-  app.listen(port);
+  app.listen(3000);
