@@ -30,12 +30,12 @@ const options = {
 
 app.get("/", (request, response) => {
   const error = "";
-    response.render("login", {error});
+    response.render("logIn", {error});
   });
 
   app.get("/logIn", (request, response) => {
     const error = "";
-      response.render("login", {error});
+      response.render("logIn", {error});
     });
 
 app.get("/signUp", (request, response) => {
