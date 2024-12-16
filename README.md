@@ -10,4 +10,4 @@
 <h2 id="apis-">APIs:</h2>
 <p>Nerdy Pickup Lines (https://rapidapi.com/roomasiddiqui2003/api/nerdy-pickup-lines1)</p>
 <h2 id="contact-email-">Contact Email:</h2>
-<p>sgonza13@terpmail.umd.edu</p>
+<p>agalsim@terpmail.umd.edu</p>
